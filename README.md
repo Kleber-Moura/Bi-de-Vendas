@@ -6,7 +6,7 @@ O período inicial planejado vai de janeiro de 2024 a junho de 2025. A base ser�
 
 ## Estado do projeto
 
-A fase 1 prepara o ambiente e a estrutura local. O desenho do modelo dimensional começa na fase 2. As consultas, medidas e capturas do painel serão documentadas à medida que forem implementadas.
+A fase 1 preparou o ambiente e a estrutura do repositório. A fase 2 definiu o [modelo dimensional](docs/modelagem-dimensional.md) e seu [dicionário de dados](docs/dicionario-dados.md). Uma linha de venda representa um item de pedido. Uma linha de meta representa o faturamento planejado para um mês e uma região.
 
 ```mermaid
 flowchart LR
@@ -29,4 +29,4 @@ flowchart LR
 | `docs/` | Diagnóstico, plano e documentação técnica. |
 | `.github/workflows/` | Automação de testes após a implementação do pipeline. |
 
-Consulte o [ambiente verificado](docs/ambiente.md) e o [plano de implementação](docs/plano-implementacao.md).
+Consulte o [ambiente verificado](docs/ambiente.md), a [arquitetura de dados](docs/arquitetura.md), as [decisões técnicas](docs/decisoes-tecnicas.md) e o [plano de implementação](docs/plano-implementacao.md).

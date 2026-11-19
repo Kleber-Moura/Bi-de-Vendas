@@ -13,6 +13,6 @@
 
 ## Versionamento
 
-O repositório começa com `main`. Após o primeiro commit, a estratégia proposta é usar `develop` para integração e branches `feature/*` por entrega, como `feature/modelagem-dados`. Use Conventional Commits e pull requests para integrar as entregas. Publicações remotas dependem de aprovação.
+O repositório começou em `main`. A fase 2 usa a branch local `feature/modelagem-dados`. A estratégia proposta para integração usa `develop` e branches `feature/*` por entrega, com Conventional Commits e pull requests. Publicações remotas dependem de aprovação.
 
-As pastas reservadas têm um arquivo `.gitkeep` porque o Git não versiona diretórios vazios. O commit inicial sugerido é `chore: estrutura o projeto de BI de vendas`.
+As pastas reservadas têm um arquivo `.gitkeep` porque o Git não versiona diretórios vazios.
