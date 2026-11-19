@@ -1,0 +1,22 @@
+# Credenciais e configuração local
+.env
+.env.*
+!.env.example
+supabase/.temp/
+supabase/.branches/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Cache e configurações locais do Power BI
+**/.pbi/cache.abf
+**/.pbi/localSettings.json
+
+# Dados gerados e logs locais
+/dados/
+*.log
